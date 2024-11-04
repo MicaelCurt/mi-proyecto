@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #363636;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+
+#juego {
+    text-align: center;
+    background-color: #a79a9a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#imagen {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.answer-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.answer-button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#siguiente {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 112px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#siguiente:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    body {
+    font-size: 14px;
+    margin: 10px;
+    }}
+    .contenedor {
+        width: 100%; /* Hace que el contenedor ocupe todo el ancho en móviles */
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column; /* Coloca los elementos en columna en móviles */
+        align-items: center;
+    }
